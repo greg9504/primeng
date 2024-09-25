@@ -527,7 +527,7 @@ export class DomHandler {
         let scrollbarHeight = scrollDiv.offsetHeight - scrollDiv.clientHeight;
         document.body.removeChild(scrollDiv);
 
-        this.calculatedScrollbarWidth = scrollbarHeight;
+        this.calculatedScrollbarHeight = scrollbarHeight;
 
         return scrollbarHeight;
     }
